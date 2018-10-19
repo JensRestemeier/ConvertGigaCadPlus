@@ -1,14 +1,14 @@
 # ConvertGigaCadPlus
 
 ## About Giga Cad Plus
-[Giga Cad Plus](https://www.c64-wiki.de/wiki/3D-Konstruktion_mit_GIGA-CAD_Plus_auf_dem_C64/C128) is a simple modelling application for the Commodore 64, written by Stefan Vilsmeier. It was distributed as a Book with included Diskette by "Markt und Technik Verlag".  
+[Giga Cad Plus](https://www.c64-wiki.de/wiki/3D-Konstruktion_mit_GIGA-CAD_Plus_auf_dem_C64/C128) is a simple modelling application for the Commodore 64, written by Stefan Vilsmeier. It was distributed as a Book with Diskette by "Markt und Technik Verlag".  
 
-It allows 3D modelling, and rendering into high-res images and short animations.
+It allows 3D modelling, and rendering of objects into "high-res" images or short animations.
 
-Unfortunately the only way to get a copy these days is on various second hand markets like eBay.
+Unfortunately the only way to get a copy these days is from various second hand markets like eBay.
 
 ## Model files
-Models are stored in files that begin with "ob." They can be extracted from .d64 disk images, or saved into plain directories with an emulator or a SD2IEC sd-card interfaced.
+Models are stored in files that begin with "ob." They can be extracted from .d64 disk images, or saved into plain directories with an emulator or a [SD2IEC](https://www.c64-wiki.com/wiki/SD2IEC) interface.
 
 ## Converting a model file
 ```console
@@ -31,7 +31,7 @@ The model will most likely be too big for the current "far" plane. Open the "Vie
 
 ![View Menu](https://raw.githubusercontent.com/JensRestemeier/ConvertGigaCadPlus/master//images/ViewMenu.png)
 
-and change the far plane to a larger value:
+and change the far clip to a larger value:
 
 ![View Properties](https://raw.githubusercontent.com/JensRestemeier/ConvertGigaCadPlus/master//images/ViewProperties.png)
 

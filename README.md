@@ -24,12 +24,17 @@ will convert ob.schiff.seq to schiff.obj.
 
 ## How to import converted files into Blender
 During import I found best results by setting -Z as "up" vector:
-[[/images/ObjImportOptions.png|Obj Import Options]]
+
+![Obj Import Options](images/ObjImportOptions.png)
 
 The model will most likely be too big for the current "far" plane. Open the "View Properties" menu:
-[[/images/ViewMenu.png|View Menu]]
+
+![View Menu](https://raw.githubusercontent.com/JensRestemeier/ConvertGigaCadPlus/master//images/ViewMenu.png)
+
 and change the far plane to a larger value:
-[[/images/ViewProperties.png|View Properties]]
+
+![View Properties](https://raw.githubusercontent.com/JensRestemeier/ConvertGigaCadPlus/master//images/ViewProperties.png)
 
 You can then explore the model in the main view:
-[[/images/Schiff.png|Ship Model]]
+
+![Ship Model](https://raw.githubusercontent.com/JensRestemeier/ConvertGigaCadPlus/master//images/Schiff.png)

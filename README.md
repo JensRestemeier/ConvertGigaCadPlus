@@ -1,6 +1,6 @@
 # ConvertGigaCadPlus
 
-## About Giga Cad Plus
+## About Giga CAD Plus
 [Giga Cad Plus](https://www.c64-wiki.de/wiki/3D-Konstruktion_mit_GIGA-CAD_Plus_auf_dem_C64/C128) is a simple modelling application for the Commodore 64, written by Stefan Vilsmeier. It was distributed as a Book with included Diskette by "Markt und Technik Verlag".  
 
 It allows 3D modelling, and rendering into high-res images and short animations.
@@ -33,3 +33,21 @@ and change the far plane to a larger value:
 
 You can then explore the model in the main view:
 [[/images/Schiff.png|Ship Model]]
+
+## CPC Giga CAD
+There is a similar application called [Giga CAD](http://www.hutter1.net/gigacad/gigacad.htm) for Amstrad CPC that 
+was published in [Happy Computer](http://www.cpcwiki.eu/index.php/CPC_Giga-CAD) magazine.
+
+You can convert models with cpcGigaCadToObj
+```console
+$ python3 cpcGigaCadToObj.py <model>
+```
+
+For example
+```console
+$ python3 gigaCadToObj.py BRUECKE.OBJ
+```
+will convert BRUECKE.OBJ to BRUECKE_wf.obj.
+
+## Other tools
+There is another tool for Giga CAD written in C [giga-cad-obj](https://github.com/mrjoso/giga-cad-obj)

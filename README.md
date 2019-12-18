@@ -41,6 +41,7 @@ You can then explore the model in the main view:
 ## CPC Giga CAD
 There is a similar application called [Giga CAD](http://www.hutter1.net/gigacad/gigacad.htm) for Amstrad CPC that 
 was published in [Happy Computer](http://www.cpcwiki.eu/index.php/CPC_Giga-CAD) magazine.
+It is written in assembler with Turbo Pascal subroutines, and runs in CP/M.
 
 You can convert models with cpcGigaCadToObj
 ```console
@@ -49,7 +50,7 @@ $ python3 cpcGigaCadToObj.py <model>
 
 For example
 ```console
-$ python3 gigaCadToObj.py BRUECKE.OBJ
+$ python3 cpcGigaCadToObj.py BRUECKE.OBJ
 ```
 will convert BRUECKE.OBJ to BRUECKE_wf.obj.
 
